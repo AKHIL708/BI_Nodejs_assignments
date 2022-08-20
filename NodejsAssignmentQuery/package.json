@@ -1,0 +1,19 @@
+{
+  "name": "nodejsassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ageCalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ageCalculator.js",
+    "dev": "nodemon ageCalculator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "findage": "^30.0.0",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.19"
+  }
+}
